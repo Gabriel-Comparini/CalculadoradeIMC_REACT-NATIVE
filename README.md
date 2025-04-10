@@ -2,7 +2,7 @@
 https://github.com/user-attachments/assets/90176c61-4111-41ff-bab7-f4358fe4b35e
 
 # #Passo 1:
-Para iniciar, é necessário clonar o repositório usando o comando: git clone https://github.com/Gabriel-Comparini/CalculadoradeIMC_REACT-NATIVE
+Para iniciar, é necessário clonar o repositório usando o comando: "git clone https://github.com/Gabriel-Comparini/CalculadoradeIMC_REACT-NATIVE".
 
 # #Passo 2:
 Depois, entre na pasta CalculadoraIMC e instale o node_modules, via o comando "npm install" no terminal.
