@@ -1,7 +1,10 @@
+//Aqui são importados do React e React-Native os elementos usados no documento
 import React from 'react';
 import { Text, StyleSheet, View } from 'react-native';
 
+//Essa é a função principal do Classification.js
 const Classification = ({ imc }) => {
+    //Essa sequencia de If/Else pega o valor importado do FormIMC.js e verifica o seu valor, dependendo dele, a função retorna se você está acima ou abaixo do peso.
     if (imc == null) {
         return null;
     } else if (imc <= 18.5 ) {
@@ -53,6 +56,7 @@ const Classification = ({ imc }) => {
     }
 }
 
+//Estilização dos <Text /> e <View /> logo acima.
 const styles = StyleSheet.create({
     classf: {
         fontSize: 22,
@@ -75,4 +79,6 @@ const styles = StyleSheet.create({
     },
 });
 
+
+//Exporta a função Classification 
 export default Classification;
